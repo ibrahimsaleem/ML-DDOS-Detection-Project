@@ -98,7 +98,20 @@ Below is a summary of our project plan, tasks, responsible team members, and com
 ---
 
 ## Project Structure
-ML-DDOS-Detection-Project/ ├── data/ │ ├── raw/ # Original dataset │ └── processed/ # Cleaned and transformed data ├── notebooks/ # Jupyter notebooks for EDA, experiments, analysis ├── src/ # Source code for data processing and model training │ ├── preprocessing.py # Scripts for cleaning and preparing data │ ├── feature_engineering.py │ ├── model_training.py # Scripts to train both basic and advanced models │ ├── hyperparameter.py # Hyperparameter tuning and cross-validation │ └── utils.py # Utility functions ├── results/ # Model outputs, evaluation metrics, plots ├── requirements.txt # Python dependencies └── README.md # Project documentation
+ML-DDOS-Detection-Project/
+├── data/
+│   ├── raw/                 # Original dataset
+│   └── processed/           # Cleaned and transformed data
+├── notebooks/               # Jupyter notebooks for EDA, experiments, analysis
+├── src/                     # Source code for data processing and model training
+│   ├── preprocessing.py     # Scripts for cleaning and preparing data
+│   ├── feature_engineering.py
+│   ├── model_training.py    # Scripts to train both basic and advanced models
+│   ├── hyperparameter.py    # Hyperparameter tuning and cross-validation
+│   └── utils.py             # Utility functions
+├── results/                 # Model outputs, evaluation metrics, plots
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
 
 ---
 
