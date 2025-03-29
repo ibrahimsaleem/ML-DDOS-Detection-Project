@@ -1,6 +1,6 @@
 # ML-DDOS-Detection-Project
 
-A machine learning-based approach for detecting Distributed Denial of Service (DDoS) attacks. This repository is developed for the **Data Science for Cybersecurity** course as a group project by **Team OLlampians**.
+A machine learning-based approach for detecting Distributed Denial of Service (DDoS) attacks. This repository is developed for the **Data Science for Cybersecurity** course as a group project by **Team Olympians**.
 
 ---
 
