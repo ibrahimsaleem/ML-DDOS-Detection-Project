@@ -127,7 +127,7 @@ ML-DDOS-Detection-Project/
 
 ## Installation
 1. **Clone the repository**:  
-   `git clone https://github.com/yourusername/ML-DDOS-Detection-Project.git`
+   `git clone https://github.com/ibrahimsaleem/ML-DDOS-Detection-Project.git`
 
 2. **Navigate to the project directory**:  
    `cd ML-DDOS-Detection-Project`
