@@ -33,8 +33,15 @@ This project aims to demonstrate how data science and machine learning technique
 
 ## Dataset
 - **Name**: DDoS2020 (Prairie View A&M University)  
-- **Source**: [PVAMU-DDoS-2020.csv](http://pvamu1.s3-website-us-east-1.amazonaws.com/data/PVAMU-DDoS-2020.csv)  
-- **Description**: The dataset includes network traffic records labeled to indicate normal vs. DDoS traffic, suitable for building classification models.
+- **Source**: [PVAMU-DDoS-2020.csv](http://pvamu1.s3-website-us-east-1.amazonaws.com/data/PVAMU-DDoS-2020.csv)
+  
+For this project, we utilize the **DDoS2020** dataset from Prairie View A&M University, introduced and described in the paper:
+
+> **S. Alam, Y. Alam, S. Cui, C. Akujuobi, and M. Chouikha**, “Toward Developing a Realistic DDoS Dataset for Anomaly-based Intrusion Detection,” *2021 IEEE International Conference on Consumer Electronics (ICCE)*, 2021.
+
+This dataset was developed using Spirent’s **CyberFlood CF20** emulator to capture realistic volumetric and protocol-based DDoS attacks (ICMP Flood, UDP Flood, SYN Flood, XMAS Tree Flood) alongside benign network traffic. The authors extracted and labeled over 4.5 million flow records with up to **80 features** per flow, offering a comprehensive view of normal and malicious network behavior. By leveraging high-bandwidth emulation (up to 10 Gbps), the dataset effectively represents large-scale, real-world attack scenarios suitable for training and evaluating anomaly-based intrusion detection models.
+
+**Download Link**: [PVAMU-DDoS-2020.csv](http://pvamu1.s3-website-us-east-1.amazonaws.com/data/PVAMU-DDoS-2020.csv)  
 
 ---
 
@@ -98,6 +105,8 @@ Below is a summary of our project plan, tasks, responsible team members, and com
 ---
 
 ## Project Structure
+<pre>
+
 ML-DDOS-Detection-Project/
 ├── data/
 │   ├── raw/                 # Original dataset
@@ -112,8 +121,9 @@ ML-DDOS-Detection-Project/
 ├── results/                 # Model outputs, evaluation metrics, plots
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
+</pre>
 
----
+
 
 ## Installation
 1. **Clone the repository**:  
