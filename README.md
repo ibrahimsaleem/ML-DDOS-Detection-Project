@@ -164,11 +164,18 @@ ML-DDOS-Detection-Project/
 ---
 
 ## Team
-**Team OLlampians** – Data Science for Cybersecurity  
-- **Member 1**  
-- **Member 2**  
-- **Member 3**  
-- **Member 4**
+
+- **Team Name**: Team Olympians  
+- **Total Members**: 4  
+
+### Members
+1. **Danindu Gammanpilage**  
+
+2. **Mohammad Ibrahim Saleem**  
+
+3. **Simran Khaparde**  
+
+4. **Suvarna Aglave** (Team Leader)  
 
 ---
 
